@@ -1,0 +1,40 @@
+*{
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#pic-container{
+	width: 800px;
+	height: 450px;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+}
+#pic-list{
+	width: 4800px;					/*所有图片宽度总和*/
+	position: absolute;
+}
+#pic-container li{
+	width: 800px;
+	height: 450px;
+	float: left;
+}
+#pic-container img{
+	width: 100%;
+}
+#circle-btns,#change-btns{
+	text-align: center;
+}
+#circle-btns span{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border: black 1px solid;
+	display: inline-block;
+}
+.on{
+	background: black;
+}
